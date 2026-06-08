@@ -27,12 +27,12 @@ enum connectorTouchSensor {
 }
 
 enum connectorServoMotor {
-	//% block="P13"
-	P13 = AnalogPin.P13,
-	//% block="P14"
-	P14 = AnalogPin.P14,
-	//% block="P15"
-	P15 = AnalogPin.P15
+	//% block="C13"
+	C13 = AnalogPin.C13,
+	//% block="C14"
+	C14 = AnalogPin.C14,
+	//% block="C15"
+	C15 = AnalogPin.C15
 }
 
 
