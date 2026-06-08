@@ -1,18 +1,18 @@
 {
-    "name": "ArtecRobo",
-    "version": "0.1.4",
+    "name": "ArtecRobo C",
+    "version": "0.1.0",
     "description": "Control ArtecRobo package, created by Artec.",
     "license": "MIT",
     "icon": "icon.png",
     "files": [
         "README.md",
         "artecrobo.ts",
-        "_locales/ja/ArtecRobo-jsdoc-strings.json",
-        "_locales/ja/ArtecRobo-strings.json",
-        "_locales/zh-TW/ArtecRobo-jsdoc-strings.json",
-        "_locales/zh-TW/ArtecRobo-strings.json",
-        "_locales/zh-CN/ArtecRobo-jsdoc-strings.json",
-        "_locales/zh-CN/ArtecRobo-strings.json"
+        "_locales/ja/ArtecRobo C-jsdoc-strings.json",
+        "_locales/ja/ArtecRobo C-strings.json",
+        "_locales/zh-TW/ArtecRobo C-jsdoc-strings.json",
+        "_locales/zh-TW/ArtecRobo C-strings.json",
+        "_locales/zh-CN/ArtecRobo C-jsdoc-strings.json",
+        "_locales/zh-CN/ArtecRobo C-strings.json"
     ],
     "testFiles": [
         "test.ts"
