@@ -20,5 +20,8 @@
     "dependencies": {
         "core": "*"
     },
+    "supportedTargets": [
+        "calliopemini"
+    ],
     "public": true
 }
