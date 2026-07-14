@@ -359,15 +359,15 @@ namespace artecrobo {
 		if (_angle < 0) { _angle = 0; }
 		if (_angle > 180) { _angle = 180; }
 		switch (_connector) {
-			case connectorServoMotor.P13:
+			case connectorServoMotor.C13:
 				pins.servoWritePin(AnalogPin.P13, _angle);
 				angleP13 = _angle;
 				break;
-			case connectorServoMotor.P14:
+			case connectorServoMotor.C14:
 				pins.servoWritePin(AnalogPin.P14, _angle);
 				angleP14 = _angle;
 				break;
-			case connectorServoMotor.P15:
+			case connectorServoMotor.C15:
 				pins.servoWritePin(AnalogPin.P15, _angle);
 				angleP15 = _angle;
 				break;
@@ -387,15 +387,15 @@ namespace artecrobo {
 		if (_angle < 0) { _angle = 0; }
 		if (_angle > 180) { _angle = 180; }
 		switch (_connector) {
-			case connectorServoMotor.P13:
+			case connectorServoMotor.C13:
 				moveservo(AnalogPin.P13, angleP13, _angle, _speed);
 				angleP13 = _angle;
 				break;
-			case connectorServoMotor.P14:
+			case connectorServoMotor.C14:
 				moveservo(AnalogPin.P14, angleP14, _angle, _speed);
 				angleP14 = _angle;
 				break;
-			case connectorServoMotor.P15:
+			case connectorServoMotor.C15:
 				moveservo(AnalogPin.P15, angleP15, _angle, _speed);
 				angleP15 = _angle;
 				break;
