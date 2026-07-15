@@ -533,9 +533,9 @@ namespace artecrobo {
 		switch (_motion) {
 			case DCmotion.Forward:
 				if (_connector == connectorDCMotor.M0) {
-					motors.dualMotorPower(Motor.M0, speedM0);
+					motors.dualMotorPower(Motor.M0, -speedM0);
 				} else {
-					motors.dualMotorPower(Motor.M1, speedM1);
+					motors.dualMotorPower(Motor.M1, -speedM1);
 				}
 				break;
 			case DCmotion.Backward:
@@ -545,9 +545,9 @@ namespace artecrobo {
 					M2:P0 = 0, P16 = speeed
 				*/
 				if (_connector == connectorDCMotor.M0) {
-					motors.dualMotorPower(Motor.M0, -speedM0);
+					motors.dualMotorPower(Motor.M0, speedM0);
 				} else {
-					motors.dualMotorPower(Motor.M1, -speedM1);
+					motors.dualMotorPower(Motor.M1, speedM1);
 				}
 				break;
 			case DCmotion.Brake:
