@@ -12,7 +12,7 @@
   ,"artecrobo.setSpeedDCMotor|block": "DCモーター|%_connector|の速さを|%_speed|にする"
   ,"artecrobo.moveServoMotorMax|block": "サーボモーター %_connector| を %_angle| 度にする"
   ,"artecrobo.moveServoMotor|block": "サーボモーター %_connector| を %_angle| 度にする 速さ： %_speed"
-  ,"artecrobo.AsyncMoveServoMotor|block": "サーボモーターを同時に動かす| 速さ: %_speed| P13の角度: %_angle13| P14の角度: %_angle14| P15の角度: %_angle15"
+  ,"artecrobo.AsyncMoveServoMotor|block": "サーボモーターを同時に動かす| 速さ: %_speed| C13の角度: %_angle13| C14の角度: %_angle14| C15の角度: %_angle15"
   ,"artecrobo.lightSensor|block": "光センサー|  %_connector"
   ,"artecrobo.soundSensor|block": "音センサー|  %_connector"
   ,"artecrobo.irPhotoreflector|block": "赤外線フォトリフレクタ|  %_connector"

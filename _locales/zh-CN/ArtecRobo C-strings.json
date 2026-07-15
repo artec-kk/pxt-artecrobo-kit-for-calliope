@@ -12,7 +12,7 @@
   ,"artecrobo.setSpeedDCMotor|block": "直流马达 |%_connector|电力|%_speed"
   ,"artecrobo.moveServoMotorMax|block": "设定伺服马达 %_connector| 在 %_angle|度"
   ,"artecrobo.moveServoMotor|block": "移动伺服马达 %_connector| 在 %_angle|度 速度: %_speed"
-  ,"artecrobo.AsyncMoveServoMotor|block": "按照下列参数移动伺服马达 速度:%_speed| P13的角度:%_angle13 | P14的角度:%_angle14 |P15的角度: %_angle15"
+  ,"artecrobo.AsyncMoveServoMotor|block": "按照下列参数移动伺服马达 速度:%_speed| C13的角度:%_angle13 | C14的角度:%_angle14 |C15的角度: %_angle15"
   ,"artecrobo.lightSensor|block": "光感应器|  %_connector"
   ,"artecrobo.soundSensor|block": "声音感应器|  %_connector"
   ,"artecrobo.irPhotoreflector|block": "红外线反射感应器|  %_connector"
