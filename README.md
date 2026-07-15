@@ -158,47 +158,47 @@ if (artecrobo.isBuzzerplaying(connectorDigitalSensor.P0)) {
 
 * Set the speed of a DC Motor
 
-Use this to set the speed of a DC Motor. You can specify M1 or M2 and a speed from 0 to 1023. 
+Use this to set the speed of a DC Motor. You can specify M0 or M1 and a speed from 0 to 1023. 
 
 ```blocks
-// Set M1 Dcmotor to max power(1023)
-artecrobo.setSpeedDCMotor(connectorDCMotor.M1, 1023)
+// Set M0 Dcmotor to max power(1023)
+artecrobo.setSpeedDCMotor(connectorDCMotor.M0, 1023)
 ```
 
 * Set the direction of a DC Motor
 
-Use this to move a DC Motor in a set direction. You can specify M1 or M2 and a direction of Forward, Backward, Brake or Coast.
+Use this to move a DC Motor in a set direction. You can specify M0 or M1 and a direction of Forward, Backward, Brake or Coast.
 
 ```blocks
-// Control M1 DC motor to Forward
-artecrobo.moveDCMotor(connectorDCMotor.M1, DCmotion.Forward)
+// Control M0 DC motor to Forward
+artecrobo.moveDCMotor(connectorDCMotor.M0, DCmotion.Forward)
 ```
 
 * Set a Servomotor angle
 
-Use this to move a Servomotor to a set angle. You can specify P13, P14 or P15 and an angle from 0 to 180.
+Use this to move a Servomotor to a set angle. You can specify C13, C14 or C15 and an angle from 0 to 180.
 
 ```blocks
-// Set a Servomotor on P13 to 90 degrees
-artecrobo.moveServoMotorMax(connectorServoMotor.P13, 90)
+// Set a Servomotor on C13 to 90 degrees
+artecrobo.moveServoMotorMax(connectorServoMotor.C13, 90)
 ```
 
 * Set a Servomotor angle at a set speed
 
-Use this to move a Servomotor at a set speed. You can specify P13, P14 or P15, an angle from 0 to 180, and a speed from 1 to 20.
+Use this to move a Servomotor at a set speed. You can specify C13, C14 or C15, an angle from 0 to 180, and a speed from 1 to 20.
 
 ```blocks
-// Set a Servomotor on P13 to 90 degrees at speed 20:
-artecrobo.moveServoMotor(connectorServoMotor.P13, 90, 20)
+// Set a Servomotor on C13 to 90 degrees at speed 20:
+artecrobo.moveServoMotor(connectorServoMotor.C13, 90, 20)
 ```
 
 * Set multiple Servomotor angles at a set speed 
 
-Use this to move multiple Servomotors at a set speed. You can specify P13, P14 or P15, an angle from 0 to 180, and a speed from 1 to 20.
+Use this to move multiple Servomotors at a set speed. You can specify C13, C14 or C15, an angle from 0 to 180, and a speed from 1 to 20.
 
 
 ```blocks
-// Set Servomotors on P13, P14, and P15 to 0, 90, and 180 degrees at speed 20:
+// Set Servomotors on C13, C14, and C15 to 0, 90, and 180 degrees at speed 20:
 artecrobo.AsyncMoveServoMotor(20, 0, 90, 180)
 ```
 
