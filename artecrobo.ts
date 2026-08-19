@@ -59,9 +59,9 @@ enum connectorDigitalSensor {
 /**
  * ArtecRobo control package
  */
-//% color=#5b99a5 weight=100 icon="\uf009" block="ArtecRobo"
+//% color=#5b99a5 weight=100 icon="\uf009" block="ArtecRoboC"
 //% groups="['Motor', 'Sensor', 'LED', 'Sound']"
-namespace artecrobo {
+namespace artecroboC {
 
 	// ToDo 変数名を変更する
 
