@@ -61,7 +61,7 @@ enum connectorDigitalSensor {
  */
 //% color=#5b99a5 weight=100 icon="\uf009" block="ArtecRoboC"
 //% groups="['Motor', 'Sensor', 'LED', 'Sound']"
-namespace artecroboC {
+namespace artecrobo {
 
 	// ToDo 変数名を変更する
 
